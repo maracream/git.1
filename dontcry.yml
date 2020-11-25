@@ -4,5 +4,5 @@
    tasks: 
     - name: starting services
       service:
-       name: starting ssh
+       name: starting httpd
        state: present
