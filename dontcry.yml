@@ -1,0 +1,8 @@
+---
+ - name: starting services
+   hosts: PROD
+   tasks: 
+    - name: starting services
+      service:
+       name: starting httpd
+       state: present
